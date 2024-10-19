@@ -4,3 +4,11 @@ backgroundColor = "#F0F0F0"
 secondaryBackgroundColor = "#008080"
 textColor = "#333333"
 font = "serif"
+
+[general]
+pageTitle = "Care Connect"
+pageIcon = "🤝"
+
+[server]
+layout = "center"
+initialSidebarState = "auto"
