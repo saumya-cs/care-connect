@@ -1,6 +1,15 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.set_page_config(
+    page_title= "Care Connect",
+    page_icon= "🤝",
+    layout= "center",
+    initial_sidebar_state="auto",
+    theme={
+        "primaryColor": "#FF6347",
+        "backgroundColor": "#F0F0F0",
+        "secondaryBackgroundColor": "#FFFFFF",
+        "textColor": "#000000",
+        "font": "sans serif"
+    }
 )
